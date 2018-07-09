@@ -1,0 +1,7 @@
+cd C:\Users\Anaconda\Anaconda3\Projects\web_flask
+
+curl http://127.0.0.1:5000
+curl http://127.0.0.1:5000/hello
+curl -d @1.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/yourmsg
+curl -d @2.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/story
+curl -d @3.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/intexample
